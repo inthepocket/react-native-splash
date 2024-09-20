@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@inthepocket/react-native-splash": ["../src/index"],
+      "@inthepocket/react-native-splash/*": ["../src/*"]
+    }
+  }
+}
