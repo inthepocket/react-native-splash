@@ -24,3 +24,7 @@ export function addChangeListener(listener: (event: ChangeEventPayload) => void)
 }
 
 export { InThePocketReactNativeSplashView, InThePocketReactNativeSplashViewProps, ChangeEventPayload };
+
+export function hide(): string {
+  return InThePocketReactNativeSplashModule.hide();
+}
